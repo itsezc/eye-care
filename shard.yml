@@ -1,0 +1,17 @@
+name: app
+version: 0.1.0
+
+authors:
+      - itzezc <chirub@foretag.co>
+
+targets:
+      app:
+            main: source/eye-care.cr
+
+dependencies:
+      cron_scheduler:
+            github: kostya/cron_scheduler
+
+crystal: 0.36.0
+
+license: MIT
